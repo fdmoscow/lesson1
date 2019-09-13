@@ -14,7 +14,7 @@ def format_price(price):
     return 'Цена: ЧИСЛО  руб' 
     print(int(price))
     
-x = 56.24
+x = 56.24        #не уверен что так записывать число
 format_price(x)
 print(x)
 
