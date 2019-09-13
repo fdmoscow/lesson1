@@ -11,13 +11,10 @@ get_summ('learn', 'python')
 #Функция Задание 2
 
 def format_price(price):
-    return 'Цена: ЧИСЛО  руб' #куда эти данные?
-    print(int(price))
-    
-x = 56.24        #не уверен что так записывать число
-format_price(x)
-print(x)
+    return f'Цена: {price} руб'
 
+tsena = format_price(56.24)
+print(tsena)
 
 
 
