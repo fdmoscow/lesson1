@@ -4,7 +4,7 @@ def get_summ(one, two, delimiter='&'):
 
     print(str.upper('learn ' + delimiter + ' python')) 
     
-        
+      
 get_summ('learn', 'python')
     
 

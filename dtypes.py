@@ -1,3 +1,4 @@
-a = 2
-b = f {'a'} + '2'
-print(b)
+a=2
+b='Привет'
+c='{} {}'.format(a,b)
+print(c)
