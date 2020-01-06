@@ -1,20 +1,14 @@
-#Функции Задание 1
-
-def get_summ(one, two, delimiter='&'):
-
-    print(str.upper('learn ' + delimiter + ' python')) 
+#def get_summ(one, two, delimeter='&'):
+#    one = str(one).capitalize()
+#    two = str(two).capitalize()
+#    print(one, delimeter, two)
     
-      
-get_summ('learn', 'python')
-    
+#get_summ(one='learn', two='python')
 
-#Функция Задание 2
+
 
 def format_price(price):
-    return f'Цена: {price} руб'
-
-tsena = format_price(56.24)
-print(tsena)
-
-
-
+    price = int(price)
+    return (f'Цена: {price} руб.')
+format_price(54.26)
+print(display)
