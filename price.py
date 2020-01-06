@@ -10,5 +10,5 @@
 def format_price(price):
     price = int(price)
     return (f'Цена: {price} руб.')
-format_price(54.26)
+display = format_price(54.26)
 print(display)
